@@ -36,6 +36,7 @@ namespace FirstApp
 
         public static int FindLargestDigit(int number)
         {
+            //yvj
             int a = number / 100; // первая цифра
             int b = (number / 10) % 10; // вторая цифра
             int c = number % 10; // третья цифра
